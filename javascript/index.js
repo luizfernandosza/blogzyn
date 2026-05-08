@@ -40,8 +40,17 @@ const listaDeDados = [
         pagina: "artigo-juros-abusivos.html",
 		datapublicacao : "5 de Maio, 2026",
 		tempodeleitura: "5 min de leitura"
+    },
+    {
+        img: "https://images.unsplash.com/photo-1772413438617-937e44f2642e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        categoria: "Oportunidade",
+		classecategoria : "badge bg-warning text-dark mb-2 px-3 py-2 fw-bold",
+        titulo: "Renda Extra: 10 Formas Reais de Ganhar Dinheiro Além do Salário",
+        subtitulo: "Transforme seu tempo livre em faturamento com estratégias que funcionam no cenário atual.",
+        pagina: "artigo-renda-extra.html",
+		datapublicacao : "8 de Maio, 2026",
+		tempodeleitura: "6 min de leitura"
     }
-	
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
