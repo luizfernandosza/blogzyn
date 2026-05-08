@@ -1,6 +1,17 @@
 
 function CarregarLista(){
+
 	 return  [
+         {
+             img: "img/desenrola2.0.png",
+             categoria: "Oportunidade",
+             classecategoria: "badge bg-warning text-dark mb-2 px-3 py-2 fw-bold",
+             titulo: "Desenrola 2.0: Guia Prático para Usar seu FGTS",
+             subtitulo: "Aprenda a utilizar o saldo do seu Fundo de Garantia para liquidar dívidas com descontos agressivos.",
+             pagina: "paginas/artigo-desenrola2.0.html",
+             datapublicacao: "9 de Maio, 2026",
+             tempodeleitura: "10 min de leitura"
+         },
 		{
 			img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
 			categoria: "Educação",
