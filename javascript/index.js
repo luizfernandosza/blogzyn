@@ -80,11 +80,8 @@ function renderizarLista(itens) {
 				</div>
 			</div>
 		  `;
-			console.log(item.img);
     }
     container.innerHTML = htmlGerado;
-	
-	console.log(htmlGerado);
 }
 
 
