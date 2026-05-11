@@ -1,12 +1,22 @@
 
 function CarregarLista(){
 
+
 	 return  [
          {
+             img: "img/reserva-emergencia.png",
+             categoria: "Educação",
+             classecategoria: "badge bg-success mb-2 badge-category",
+             titulo: "Como criar uma reserva de emergência em 12 meses (mesmo trabalhando CLT)",
+             subtitulo: "O plano prático para você nunca mais ter medo de uma demissão ou de um imprevisto financeiro.",
+             pagina: "paginas/artigo-reserva-emergencia.html",
+             datapublicacao: "9 de Maio, 2026",
+             tempodeleitura: "6 min de leitura"
+         }, {
              img: "img/desenrola2.0.png",
              categoria: "Oportunidade",
              classecategoria: "badge bg-warning text-dark mb-2 px-3 py-2 fw-bold",
-             titulo: "Desenrola 2.0: Guia Prático para Usar seu FGTS",
+             titulo: "Desenrola 2.0: Novo programa para usar o FGTS e quitar dívidas",
              subtitulo: "Aprenda a utilizar o saldo do seu Fundo de Garantia para liquidar dívidas com descontos agressivos.",
              pagina: "paginas/artigo-desenrola2.0.html",
              datapublicacao: "9 de Maio, 2026",
@@ -95,7 +105,7 @@ function renderizarLista(itens) {
 		
     for (const item of itens) { 		
 		htmlGerado += `
-			<div class="col-md-6 col-lg-3">
+			<div class="col-md-4 col-lg-4">
 				<div class="card">
 					<img src="${item.img}" alt="" style="width:100%; height: 200px;" class="card-img-top">
 					<div class="card-body d-flex flex-column">
